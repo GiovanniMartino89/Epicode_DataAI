@@ -1,0 +1,13 @@
+sources: 
+  - name: flusso 
+    schema: main 
+    tables: 
+      - name: clienti 
+      - name: ordini
+        columns: 
+          - name: order_id 
+            data_tests: 
+              - not_null 
+          - name: customer_id 
+            data_tests: 
+              - not_null

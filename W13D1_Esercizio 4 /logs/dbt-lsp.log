@@ -1,0 +1,620 @@
+==================== 2026-10-30T19:05:46.280227Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-10-30T19:05:46.283933Z | c7748d49-6c3c-44b7-800d-82de860c6fb0 ====================
+19:05:46.284526 [info ]: Starting dbt LSP server
+19:05:46.284907 [info ]: Connecting to LSP client on port 8000
+19:05:46.285463 [info ]: Successfully connected to LSP client
+19:05:46.285575 [info ]: Creating LSP service...
+19:05:46.291129 [info ]: Creating LSP server...
+19:05:46.291142 [info ]: Starting LSP server...
+19:05:46.739761 [info ]: Loading profiles.yml
+==================== 2026-10-30T19:05:46.771442Z | a729f77c-c4b8-4f9d-812e-532655bf11b0 ====================
+19:05:46.771816 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully [374us]
+==================== 2026-10-30T19:05:46.807635Z | 7e3f4c69-fb44-44b4-ac68-597658ef2d19 ====================
+19:05:46.810250 [info ]: Started loading project
+19:05:46.836875 [info ]: Loading profiles.yml
+19:05:47.063673 [debug]:    Started loading packages
+19:05:47.065544 [debug]:     Loaded [  0.00s] packages
+19:05:47.069582 [info ]: Finished loading project [  0.26s]
+19:05:47.073401 [info ]: Started parsing (2 nodes)
+19:05:47.114441 [debug]: Finished parsing models/sources.yml [  0.00s]
+19:05:47.116482 [debug]:    Started building model nodes
+19:05:47.116514 [debug]:    Started building model nodes
+19:05:47.116532 [debug]:   Finished [  0.00s] building model nodes
+19:05:47.116538 [debug]:   Finished [  0.00s] building model nodes
+19:05:47.118285 [debug]:    Started resolving data tests
+19:05:47.118307 [debug]:    Started resolving data tests
+19:05:47.118682 [debug]:   Finished [  0.00s] resolving data tests
+19:05:47.118683 [debug]:   Finished [  0.00s] resolving data tests
+19:05:47.125412 [debug]:    Started building model nodes
+19:05:47.129522 [debug]:   Finished [  0.00s] building model nodes
+19:05:47.130203 [debug]:    Started resolving data tests
+19:05:47.130308 [debug]:   Finished [  0.00s] resolving data tests
+19:05:47.130830 [debug]: Finished parsing models/fatturato_per_citta.sql [  0.01s]
+19:05:47.131312 [debug]:    Started typechecking macros
+19:05:47.267215 [debug]:   Finished [  0.14s] typechecking macros
+19:05:47.270630 [info ]: Finished parsing [  0.20s] (2 nodes, 0 skipped, 0 errors)
+19:05:47.274399 [info ]: Cached model count updated: 1 models (estimate)
+19:05:47.274425 [info ]: Cached model count updated: 1 models (accurate)
+19:05:47.276048 [info ]: Started scheduling
+19:05:47.281879 [info ]: Finished scheduling [  0.01s]
+19:05:47.281911 [debug]: Compilation - 0 nodes selected: {}
+19:05:47.282334 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '+fqn:model.analisi_citta.fatturato_per_citta' does not match any enabled nodes
+19:05:47.282510 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+19:05:47.282902 [info ]: Started scheduling
+19:05:47.282928 [info ]: Finished scheduling [  0.00s]
+19:05:47.300926 [info ]: Started building task graph
+19:05:47.302351 [info ]: Finished building task graph [  0.00s]
+19:05:47.340521 [info ]: Started scheduling
+19:05:47.340563 [info ]: Finished scheduling [  0.00s]
+19:05:47.340798 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [533ms]
+19:05:47.340856 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-30T19:05:47.364751Z | 06bd1452-84c7-4912-b52f-b41ae0b18935 ====================
+19:05:47.364815 [info ]: Started loading project
+19:05:47.365405 [info ]: Loading profiles.yml
+19:05:47.367345 [info ]: Finished loading project [  0.00s]
+19:05:47.380630 [info ]: Cached model count updated: 1 models (estimate)
+19:05:47.380653 [info ]: Cached model count updated: 1 models (accurate)
+19:05:47.380674 [info ]: Started scheduling
+19:05:47.380704 [info ]: Finished scheduling [  0.00s]
+19:05:47.380716 [debug]: Compilation - 0 nodes selected: {}
+19:05:47.380758 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '+fqn:model.analisi_citta.fatturato_per_citta' does not match any enabled nodes
+19:05:47.380773 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+19:05:47.381428 [info ]: Started building task graph
+19:05:47.381442 [info ]: Finished building task graph [  0.00s]
+19:05:47.383642 [info ]: Started scheduling
+19:05:47.383673 [info ]: Finished scheduling [  0.00s]
+19:05:47.383707 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [18ms]
+19:05:47.383748 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-30T19:05:47.408298Z | 814a26b8-338b-4a4c-9303-470ec0981312 ====================
+19:05:47.408341 [info ]: Started loading project
+19:05:47.408563 [info ]: Loading profiles.yml
+19:05:47.410147 [info ]: Finished loading project [  0.00s]
+19:05:47.422612 [info ]: Cached model count updated: 1 models (estimate)
+19:05:47.422637 [info ]: Cached model count updated: 1 models (accurate)
+19:05:47.422659 [info ]: Started scheduling
+19:05:47.422692 [info ]: Finished scheduling [  0.00s]
+19:05:47.422703 [debug]: Compilation - 0 nodes selected: {}
+19:05:47.422720 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '+fqn:model.analisi_citta.fatturato_per_citta' does not match any enabled nodes
+19:05:47.422734 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+19:05:47.423342 [info ]: Started building task graph
+19:05:47.423358 [info ]: Finished building task graph [  0.00s]
+19:05:47.425584 [info ]: Started scheduling
+19:05:47.425613 [info ]: Finished scheduling [  0.00s]
+19:05:47.425636 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [17ms]
+19:05:47.425675 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-30T19:05:48.599331Z | 637cf8f0-b453-4766-bdc8-401d34687f90 ====================
+19:05:48.599379 [info ]: Started loading project
+19:05:48.599640 [info ]: Loading profiles.yml
+19:05:48.601123 [info ]: Finished loading project [  0.00s]
+19:05:48.612701 [info ]: Cached model count updated: 1 models (estimate)
+19:05:48.612728 [info ]: Cached model count updated: 1 models (accurate)
+19:05:48.612752 [info ]: Started scheduling
+19:05:48.612785 [info ]: Finished scheduling [  0.00s]
+19:05:48.612796 [debug]: Compilation - 0 nodes selected: {}
+19:05:48.612810 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+19:05:48.613523 [info ]: Started building task graph
+19:05:48.613541 [info ]: Finished building task graph [  0.00s]
+19:05:48.615698 [info ]: Started scheduling
+19:05:48.615724 [info ]: Finished scheduling [  0.00s]
+19:05:48.615747 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'dev' [16ms]
+19:05:48.615791 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-30T19:05:49.207209Z | 8ba663e3-2170-475b-b3f5-90c93f1e4102 ====================
+19:05:49.207291 [info ]: Started loading project
+19:05:49.207566 [info ]: Loading profiles.yml
+19:05:49.209009 [info ]: Finished loading project [  0.00s]
+19:05:49.220642 [info ]: Cached model count updated: 1 models (estimate)
+19:05:49.220664 [info ]: Cached model count updated: 1 models (accurate)
+19:05:49.220687 [info ]: Started scheduling
+19:05:49.220723 [info ]: Finished scheduling [  0.00s]
+19:05:49.220734 [debug]: Compilation - 0 nodes selected: {}
+19:05:49.220751 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '+fqn:model.analisi_citta.fatturato_per_citta' does not match any enabled nodes
+19:05:49.220764 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+19:05:49.221352 [info ]: Started building task graph
+19:05:49.221368 [info ]: Finished building task graph [  0.00s]
+19:05:49.223286 [info ]: Started scheduling
+19:05:49.223308 [info ]: Finished scheduling [  0.00s]
+19:05:49.223329 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [16ms]
+19:05:49.223367 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-30T19:05:50.972667Z | 1cb6c1b5-94cd-488a-98a2-402771cc175c ====================
+19:05:50.972759 [info ]: Started loading project
+19:05:50.973163 [info ]: Loading profiles.yml
+19:05:50.975410 [info ]: Finished loading project [  0.00s]
+19:05:50.989396 [info ]: Cached model count updated: 1 models (estimate)
+19:05:50.989421 [info ]: Cached model count updated: 1 models (accurate)
+19:05:50.989460 [info ]: Started scheduling
+19:05:50.989508 [info ]: Finished scheduling [  0.00s]
+19:05:50.989526 [debug]: Compilation - 0 nodes selected: {}
+19:05:50.989548 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+19:05:50.990750 [info ]: Started building task graph
+19:05:50.990774 [info ]: Finished building task graph [  0.00s]
+19:05:50.993295 [info ]: Started scheduling
+19:05:50.993385 [info ]: Finished scheduling [  0.00s]
+19:05:50.993463 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'dev' [20ms]
+19:05:50.993575 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-30T19:08:05.463674Z | 22a8b52f-eeca-4cf0-9ff0-5809cfc2732d ====================
+19:08:05.463792 [info ]: Started loading project
+19:08:05.464144 [info ]: Loading profiles.yml
+19:08:05.472580 [info ]: Started parsing (1 nodes)
+19:08:05.499163 [info ]: Finished loading project [  0.04s]
+19:08:05.499651 [debug]:    Started building model nodes
+19:08:05.499644 [debug]:    Started building model nodes
+19:08:05.499677 [debug]:   Finished [  0.00s] building model nodes
+19:08:05.499676 [debug]:   Finished [  0.00s] building model nodes
+19:08:05.500561 [debug]:    Started resolving data tests
+19:08:05.500561 [debug]:    Started resolving data tests
+19:08:05.500597 [debug]:   Finished [  0.00s] resolving data tests
+19:08:05.500598 [debug]:   Finished [  0.00s] resolving data tests
+19:08:05.503869 [debug]:    Started building model nodes
+19:08:05.504591 [debug]:   Finished [  0.00s] building model nodes
+19:08:05.504959 [debug]:    Started resolving data tests
+19:08:05.504973 [debug]:   Finished [  0.00s] resolving data tests
+19:08:05.505015 [debug]: Finished parsing models/fatturato_per_citta.sql [  0.01s]
+19:08:05.505223 [debug]:    Started typechecking macros
+19:08:05.593831 [debug]:   Finished [  0.09s] typechecking macros
+19:08:05.596533 [error]: [DependencyNotFound (dbt1048)]: Source 'flusso.ordini' not found in project. Searched for 'analisi_citta.flusso.ordini, flusso.ordini'
+  --> models/fatturato_per_citta.sql:6:6
+19:08:05.596581 [error]: [DependencyNotFound (dbt1048)]: Source 'flusso.clienti' not found in project. Searched for 'analisi_citta.flusso.clienti, flusso.clienti'
+  --> models/fatturato_per_citta.sql:7:6
+19:08:05.597233 [info ]: Finished parsing [  0.12s] (1 nodes, 0 skipped, 0 errors)
+19:08:05.598505 [info ]: Cached model count updated: 1 models (estimate)
+19:08:05.598518 [info ]: Cached model count updated: 1 models (accurate)
+19:08:05.598553 [info ]: Started scheduling
+19:08:05.598601 [info ]: Finished scheduling [  0.00s]
+19:08:05.598827 [debug]: Compilation - 1 nodes selected: {"model.analisi_citta.fatturato_per_citta"}
+19:08:05.600808 [info ]: Started building task graph
+19:08:05.601636 [info ]: Finished building task graph [  0.00s]
+19:08:05.603714 [info ]: Started rendering (1 nodes)
+19:08:05.603894 [info ]: Started model main.fatturato_per_citta
+19:08:05.603908 [debug]: Started rendering model main.fatturato_per_citta
+19:08:05.607918 [error]: [JinjaError (dbt1501)]: Failed to render SQL not a key type: Source not found for source name: flusso, table name: ordini
+(in models/fatturato_per_citta.sql:6:6)
+  --> models/fatturato_per_citta.sql:6:6
+19:08:05.608055 [debug]: Finished rendering [  0.00s] model main.fatturato_per_citta [error]
+19:08:05.608071 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 1 errors)
+19:08:05.608591 [info ]: Started analyzing (1 nodes)
+19:08:05.608616 [debug]: Started analyzing model main.fatturato_per_citta
+19:08:05.608647 [debug]: Finished analyzing [  0.00s] model main.fatturato_per_citta [skipped]
+19:08:05.608654 [info ]: Finished analyzing [  0.00s] (1 nodes, 1 skipped, 0 errors)
+19:08:05.608658 [info ]:     Failed model main.fatturato_per_citta (table) [1 of 1 in 0.00s]
+19:08:05.612916 [info ]: Started scheduling
+19:08:05.613018 [info ]: Finished scheduling [  0.00s]
+19:08:05.613731 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 3 errors for target 'dev' [150ms]
+Processed: 1 model
+Summary: 1 total | 1 error
+19:08:05.613807 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-30T19:08:06.800941Z | d248eef7-03d4-4162-867a-ce0292d48954 ====================
+19:08:06.801006 [info ]: Started loading project
+19:08:06.801334 [info ]: Loading profiles.yml
+19:08:06.803821 [info ]: Finished loading project [  0.00s]
+19:08:06.821156 [info ]: Cached model count updated: 1 models (estimate)
+19:08:06.821180 [info ]: Cached model count updated: 1 models (accurate)
+19:08:06.821204 [info ]: Started scheduling
+19:08:06.821259 [info ]: Finished scheduling [  0.00s]
+19:08:06.821277 [debug]: Compilation - 1 nodes selected: {"model.analisi_citta.fatturato_per_citta"}
+19:08:06.822146 [info ]: Started building task graph
+19:08:06.822175 [info ]: Finished building task graph [  0.00s]
+19:08:06.822701 [info ]: Started rendering (1 nodes)
+19:08:06.822713 [info ]: Started model main.fatturato_per_citta
+19:08:06.822725 [debug]: Started rendering model main.fatturato_per_citta
+19:08:06.823178 [error]: [JinjaError (dbt1501)]: Failed to render SQL not a key type: Source not found for source name: flusso, table name: ordini
+(in models/fatturato_per_citta.sql:6:6)
+  --> models/fatturato_per_citta.sql:6:6
+19:08:06.823223 [debug]: Finished rendering [  0.00s] model main.fatturato_per_citta [error]
+19:08:06.823233 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 1 errors)
+19:08:06.823252 [info ]: Started analyzing (1 nodes)
+19:08:06.823258 [debug]: Started analyzing model main.fatturato_per_citta
+19:08:06.823268 [debug]: Finished analyzing [  0.00s] model main.fatturato_per_citta [skipped]
+19:08:06.823272 [info ]: Finished analyzing [  0.00s] (1 nodes, 1 skipped, 0 errors)
+19:08:06.823276 [info ]:     Failed model main.fatturato_per_citta (table) [1 of 1 in 0.00s]
+19:08:06.825467 [info ]: Started scheduling
+19:08:06.825513 [info ]: Finished scheduling [  0.00s]
+19:08:06.826386 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error for target 'dev' [25ms]
+Processed: 1 model
+Summary: 1 total | 1 error
+19:08:06.826489 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-30T19:08:20.445972Z | 18ebf7b8-013c-4a8f-9b23-139ff4cdbf0a ====================
+19:08:20.446031 [info ]: Started loading project
+19:08:20.446336 [info ]: Loading profiles.yml
+19:08:20.453354 [info ]: Started parsing (2 nodes)
+19:08:20.486465 [info ]: Finished loading project [  0.04s]
+19:08:20.486931 [debug]:    Started building model nodes
+19:08:20.486931 [debug]:    Started building model nodes
+19:08:20.486955 [debug]:   Finished [  0.00s] building model nodes
+19:08:20.486962 [debug]:   Finished [  0.00s] building model nodes
+19:08:20.487603 [debug]:    Started resolving data tests
+19:08:20.487648 [debug]:    Started resolving data tests
+19:08:20.487651 [debug]:   Finished [  0.00s] resolving data tests
+19:08:20.487672 [debug]:   Finished [  0.00s] resolving data tests
+19:08:20.490218 [debug]: Finished parsing models/sources.yml [  0.00s]
+19:08:20.492856 [debug]:    Started building model nodes
+19:08:20.493214 [debug]:   Finished [  0.00s] building model nodes
+19:08:20.493580 [debug]:    Started resolving data tests
+19:08:20.493598 [debug]:   Finished [  0.00s] resolving data tests
+19:08:20.493645 [debug]: Finished parsing models/fatturato_per_citta.sql [  0.00s]
+19:08:20.494258 [debug]:    Started typechecking macros
+19:08:20.583534 [debug]:   Finished [  0.09s] typechecking macros
+19:08:20.584462 [info ]: Finished parsing [  0.13s] (2 nodes, 0 skipped, 0 errors)
+19:08:20.585555 [info ]: Cached model count updated: 1 models (estimate)
+19:08:20.585568 [info ]: Cached model count updated: 1 models (accurate)
+19:08:20.585597 [info ]: Started scheduling
+19:08:20.585812 [info ]: Finished scheduling [  0.00s]
+19:08:20.585825 [debug]: Compilation - 1 nodes selected: {"model.analisi_citta.fatturato_per_citta"}
+19:08:20.586563 [info ]: Started building task graph
+19:08:20.586600 [info ]: Finished building task graph [  0.00s]
+19:08:20.587158 [info ]: Started rendering (1 nodes)
+19:08:20.587171 [info ]: Started model main.fatturato_per_citta
+19:08:20.587180 [debug]: Started rendering model main.fatturato_per_citta
+19:08:20.589353 [debug]: Compiled SQL for node model.analisi_citta.fatturato_per_citta at target/.lsp/compiled/analisi_citta/models/fatturato_per_citta.sql
+19:08:20.589655 [debug]: Finished rendering [  0.00s] model main.fatturato_per_citta [success]
+19:08:20.589668 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+19:08:20.589683 [info ]: Started analyzing (1 nodes)
+19:08:20.589690 [debug]: Started analyzing model main.fatturato_per_citta
+19:08:20.615297 [debug]: Finished analyzing [  0.03s] model main.fatturato_per_citta [success]
+19:08:20.615322 [info ]: Finished analyzing [  0.03s] (1 nodes, 0 skipped, 0 errors)
+19:08:20.615332 [info ]:  Succeeded model main.fatturato_per_citta (table) [1 of 1 in 0.03s]
+19:08:20.617910 [info ]: Started scheduling
+19:08:20.617995 [info ]: Finished scheduling [  0.00s]
+19:08:20.618427 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [172ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+19:08:20.618507 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-30T19:08:21.804798Z | d0cb72a9-73e6-4b37-98db-d0c3a277c077 ====================
+19:08:21.804907 [info ]: Started loading project
+19:08:21.805392 [info ]: Loading profiles.yml
+19:08:21.807065 [info ]: Finished loading project [  0.00s]
+19:08:21.819349 [info ]: Cached model count updated: 1 models (estimate)
+19:08:21.819376 [info ]: Cached model count updated: 1 models (accurate)
+19:08:21.819399 [info ]: Started scheduling
+19:08:21.819437 [info ]: Finished scheduling [  0.00s]
+19:08:21.819455 [debug]: Compilation - 1 nodes selected: {"model.analisi_citta.fatturato_per_citta"}
+19:08:21.820178 [info ]: Started building task graph
+19:08:21.820215 [info ]: Finished building task graph [  0.00s]
+19:08:21.820814 [info ]: Started rendering (1 nodes)
+19:08:21.820826 [info ]: Started model main.fatturato_per_citta
+19:08:21.820836 [debug]: Started rendering model main.fatturato_per_citta
+19:08:21.821359 [debug]: Compiled SQL for node model.analisi_citta.fatturato_per_citta at target/.lsp/compiled/analisi_citta/models/fatturato_per_citta.sql
+19:08:21.821423 [debug]: Finished rendering [  0.00s] model main.fatturato_per_citta [success]
+19:08:21.821437 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+19:08:21.821476 [info ]: Started analyzing (1 nodes)
+19:08:21.821482 [debug]: Started analyzing model main.fatturato_per_citta
+19:08:21.822344 [debug]: Finished analyzing [  0.00s] model main.fatturato_per_citta [success]
+19:08:21.822352 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+19:08:21.822356 [info ]:  Succeeded model main.fatturato_per_citta (table) [1 of 1 in 0.00s]
+19:08:21.824326 [info ]: Started scheduling
+19:08:21.824368 [info ]: Finished scheduling [  0.00s]
+19:08:21.824432 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [19ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+19:08:21.824531 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-30T19:08:22.100300Z | dd9e6d78-e75d-4cb6-ab2b-002020c9ae4e ====================
+19:08:22.100342 [info ]: Started loading project
+19:08:22.100554 [info ]: Loading profiles.yml
+19:08:22.102206 [info ]: Finished loading project [  0.00s]
+19:08:22.115435 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [15ms]
+19:08:22.115499 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-30T19:08:23.294632Z | 336d8792-de78-4a29-9675-369a4282dba9 ====================
+19:08:23.294698 [info ]: Started loading project
+19:08:23.295135 [info ]: Loading profiles.yml
+19:08:23.297641 [info ]: Finished loading project [  0.00s]
+19:08:23.314290 [info ]: Cached model count updated: 1 models (estimate)
+19:08:23.314368 [info ]: Cached model count updated: 1 models (accurate)
+19:08:23.314444 [info ]: Started scheduling
+19:08:23.314622 [info ]: Finished scheduling [  0.00s]
+19:08:23.314657 [debug]: Compilation - 1 nodes selected: {"model.analisi_citta.fatturato_per_citta"}
+19:08:23.315988 [info ]: Started building task graph
+19:08:23.316024 [info ]: Finished building task graph [  0.00s]
+19:08:23.316815 [info ]: Started rendering (1 nodes)
+19:08:23.316837 [info ]: Started model main.fatturato_per_citta
+19:08:23.316847 [debug]: Started rendering model main.fatturato_per_citta
+19:08:23.317220 [debug]: Compiled SQL for node model.analisi_citta.fatturato_per_citta at target/.lsp/compiled/analisi_citta/models/fatturato_per_citta.sql
+19:08:23.317302 [debug]: Finished rendering [  0.00s] model main.fatturato_per_citta [success]
+19:08:23.317336 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+19:08:23.317355 [info ]: Started analyzing (1 nodes)
+19:08:23.317364 [debug]: Started analyzing model main.fatturato_per_citta
+19:08:23.318525 [debug]: Finished analyzing [  0.00s] model main.fatturato_per_citta [success]
+19:08:23.318542 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+19:08:23.318551 [info ]:  Succeeded model main.fatturato_per_citta (table) [1 of 1 in 0.00s]
+19:08:23.321155 [info ]: Started scheduling
+19:08:23.321191 [info ]: Finished scheduling [  0.00s]
+19:08:23.321216 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [26ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+19:08:23.321262 [info ]: Cached model count updated: 1 models (accurate)
+19:12:26.134486 [debug]: Ignoring unsupported LSP notification
+19:12:26.791291 [debug]: Ignoring unsupported LSP notification
+==================== 2026-10-30T19:29:11.047562Z | cbe0f1ff-ba68-489c-9f0d-272fcc717cdc ====================
+19:29:11.051620 [info ]: Started loading project
+19:29:11.068528 [info ]: Loading profiles.yml
+19:29:11.129011 [info ]: Finished loading project [  0.08s]
+==================== 2026-10-30T19:29:11.129995Z | 0a993998-224d-408b-bfe5-cde5b0eafeea ====================
+19:29:11.130082 [info ]: Started loading project
+19:29:11.130315 [info ]: Loading profiles.yml
+19:29:11.357946 [debug]:    Started loading packages
+19:29:11.358993 [debug]:     Loaded [  0.00s] packages
+19:29:11.359579 [info ]: Finished loading project [  0.23s]
+19:29:11.361948 [info ]: Started parsing (3 nodes)
+19:29:11.408667 [debug]: Finished parsing models/schema.yml [  0.00s]
+19:29:11.413415 [debug]: Finished parsing models/sources.yml [  0.00s]
+19:29:11.414738 [debug]:    Started building model nodes
+19:29:11.414753 [debug]:    Started building model nodes
+19:29:11.415051 [debug]:   Finished [  0.00s] building model nodes
+19:29:11.415054 [debug]:   Finished [  0.00s] building model nodes
+19:29:11.417312 [debug]:    Started resolving data tests
+19:29:11.417335 [debug]:    Started resolving data tests
+19:29:11.417791 [debug]:   Finished [  0.00s] resolving data tests
+19:29:11.417825 [debug]:   Finished [  0.00s] resolving data tests
+19:29:11.431083 [debug]:    Started building model nodes
+19:29:11.434573 [debug]:   Finished [  0.00s] building model nodes
+19:29:11.434957 [debug]:    Started resolving data tests
+19:29:11.434978 [debug]:   Finished [  0.00s] resolving data tests
+19:29:11.435290 [debug]: Finished parsing models/fatturato_per_citta.sql [  0.02s]
+19:29:11.436147 [debug]:    Started typechecking macros
+19:29:11.532662 [debug]:   Finished [  0.10s] typechecking macros
+19:29:11.536815 [info ]: Finished parsing [  0.17s] (3 nodes, 0 skipped, 0 errors)
+19:29:11.538952 [info ]: Cached model count updated: 1 models (estimate)
+19:29:11.539236 [info ]: Cached model count updated: 1 models (accurate)
+19:29:11.540161 [info ]: Started scheduling
+19:29:11.541702 [info ]: Finished scheduling [  0.00s]
+19:29:11.541715 [debug]: Compilation - 0 nodes selected: {}
+19:29:11.542313 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+19:29:11.542612 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+19:29:11.542897 [info ]: Started scheduling
+19:29:11.543179 [info ]: Finished scheduling [  0.00s]
+19:29:11.546327 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "flusso", schema: "main", table: "ordini" }) and interval: None
+19:29:11.546522 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "flusso", schema: "main", table: "clienti" }) and interval: None
+19:29:11.560301 [info ]: Started building task graph
+19:29:11.561624 [info ]: Finished building task graph [  0.00s]
+19:29:11.589022 [info ]: Started scheduling
+19:29:11.589068 [info ]: Finished scheduling [  0.00s]
+19:29:11.589405 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [459ms]
+19:29:11.589467 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [541ms]
+19:29:11.591194 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-30T19:29:12.773142Z | 0c099550-8008-4029-91e1-838f1ff1097c ====================
+19:29:12.773203 [info ]: Started loading project
+19:29:12.774861 [info ]: Loading profiles.yml
+19:29:12.776243 [info ]: Finished loading project [  0.00s]
+19:29:12.790199 [info ]: Cached model count updated: 1 models (estimate)
+19:29:12.790246 [info ]: Cached model count updated: 1 models (accurate)
+19:29:12.790277 [info ]: Started scheduling
+19:29:12.790402 [info ]: Finished scheduling [  0.00s]
+19:29:12.790427 [debug]: Compilation - 1 nodes selected: {"model.analisi_citta.fatturato_per_citta"}
+19:29:12.791714 [info ]: Started building task graph
+19:29:12.793135 [info ]: Finished building task graph [  0.00s]
+19:29:12.795687 [info ]: Started rendering (1 nodes)
+19:29:12.795876 [info ]: Started model main.fatturato_per_citta
+19:29:12.795921 [debug]: Started rendering model main.fatturato_per_citta
+19:29:12.800232 [debug]: Compiled SQL for node model.analisi_citta.fatturato_per_citta at target/.lsp/compiled/analisi_citta/models/fatturato_per_citta.sql
+19:29:12.800422 [debug]: Finished rendering [  0.00s] model main.fatturato_per_citta [success]
+19:29:12.800438 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+19:29:12.800909 [info ]: Started analyzing (1 nodes)
+19:29:12.800935 [debug]: Started analyzing model main.fatturato_per_citta
+19:29:12.810192 [debug]: Finished analyzing [  0.01s] model main.fatturato_per_citta [success]
+19:29:12.810206 [info ]: Finished analyzing [  0.01s] (1 nodes, 0 skipped, 0 errors)
+19:29:12.810212 [info ]:  Succeeded model main.fatturato_per_citta (table) [1 of 1 in 0.01s]
+19:29:12.812939 [info ]: Started scheduling
+19:29:12.812970 [info ]: Finished scheduling [  0.00s]
+19:29:12.813188 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [40ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+19:29:12.813247 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-30T19:29:24.576519Z | 1c21b1d0-5ce1-4363-b717-fb00d313d6c5 ====================
+19:29:24.576883 [info ]: Started loading project
+19:29:24.577698 [info ]: Loading profiles.yml
+19:29:24.586207 [info ]: Started parsing (1 nodes)
+19:29:24.613887 [info ]: Finished loading project [  0.04s]
+19:29:24.614516 [debug]:    Started building model nodes
+19:29:24.614518 [debug]:    Started building model nodes
+19:29:24.614539 [debug]:   Finished [  0.00s] building model nodes
+19:29:24.614541 [debug]:   Finished [  0.00s] building model nodes
+19:29:24.615308 [debug]:    Started resolving data tests
+19:29:24.615340 [debug]:   Finished [  0.00s] resolving data tests
+19:29:24.615359 [debug]:    Started resolving data tests
+19:29:24.615383 [debug]:   Finished [  0.00s] resolving data tests
+19:29:24.615744 [error]: [UnusedConfigKey (dbt1060)]: Ignored unexpected key `"odels"`. YAML path: `odels`.
+  --> models/schema.yml:1:1
+19:29:24.615894 [debug]: Finished parsing models/schema.yml [  0.00s]
+19:29:24.616093 [debug]:    Started building model nodes
+19:29:24.616103 [debug]:   Finished [  0.00s] building model nodes
+19:29:24.616429 [debug]:    Started resolving data tests
+19:29:24.616450 [debug]:   Finished [  0.00s] resolving data tests
+19:29:24.617127 [debug]:    Started typechecking macros
+19:29:24.715180 [debug]:   Finished [  0.10s] typechecking macros
+19:29:24.716281 [info ]: Finished parsing [  0.13s] (1 nodes, 0 skipped, 0 errors)
+19:29:24.717886 [info ]: Cached model count updated: 1 models (estimate)
+19:29:24.717914 [info ]: Cached model count updated: 1 models (accurate)
+19:29:24.717973 [info ]: Started scheduling
+19:29:24.718056 [info ]: Finished scheduling [  0.00s]
+19:29:24.718068 [debug]: Compilation - 0 nodes selected: {}
+19:29:24.718103 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+19:29:24.718119 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+19:29:24.718925 [info ]: Started building task graph
+19:29:24.718958 [info ]: Finished building task graph [  0.00s]
+19:29:24.723218 [info ]: Started scheduling
+19:29:24.723251 [info ]: Finished scheduling [  0.00s]
+19:29:24.723593 [info ]: suggestion: Run 'dbt deps' to see the latest fusion compatible packages. For compatibility errors, try the autofix script: https://github.com/dbt-labs/dbt-autofix
+19:29:24.723593 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings and 1 error for target 'dev' [147ms]
+19:29:24.723664 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-30T19:29:25.900269Z | 6aeb77db-9145-40ae-a38f-bbd829ade21e ====================
+19:29:25.900354 [info ]: Started loading project
+19:29:25.900720 [info ]: Loading profiles.yml
+19:29:25.903338 [info ]: Finished loading project [  0.00s]
+19:29:25.919909 [info ]: Cached model count updated: 1 models (estimate)
+19:29:25.919940 [info ]: Cached model count updated: 1 models (accurate)
+19:29:25.919966 [info ]: Started scheduling
+19:29:25.920029 [info ]: Finished scheduling [  0.00s]
+19:29:25.920044 [debug]: Compilation - 1 nodes selected: {"model.analisi_citta.fatturato_per_citta"}
+19:29:25.920895 [info ]: Started building task graph
+19:29:25.920968 [info ]: Finished building task graph [  0.00s]
+19:29:25.922580 [info ]: Started rendering (1 nodes)
+19:29:25.922600 [info ]: Started model main.fatturato_per_citta
+19:29:25.922613 [debug]: Started rendering model main.fatturato_per_citta
+19:29:25.923588 [debug]: Compiled SQL for node model.analisi_citta.fatturato_per_citta at target/.lsp/compiled/analisi_citta/models/fatturato_per_citta.sql
+19:29:25.923687 [debug]: Finished rendering [  0.00s] model main.fatturato_per_citta [success]
+19:29:25.923696 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+19:29:25.923725 [info ]: Started analyzing (1 nodes)
+19:29:25.923732 [debug]: Started analyzing model main.fatturato_per_citta
+19:29:25.925060 [debug]: Finished analyzing [  0.00s] model main.fatturato_per_citta [success]
+19:29:25.925069 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+19:29:25.925073 [info ]:  Succeeded model main.fatturato_per_citta (table) [1 of 1 in 0.00s]
+19:29:25.927052 [info ]: Started scheduling
+19:29:25.927085 [info ]: Finished scheduling [  0.00s]
+19:29:25.927740 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [27ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+19:29:25.927799 [info ]: Cached model count updated: 1 models (accurate)
+19:30:18.097940 [debug]: Ignoring unsupported LSP notification
+19:30:19.214409 [debug]: Ignoring unsupported LSP notification
+==================== 2026-10-30T19:31:08.759325Z | d5bfc697-d41d-44d2-8a53-e5dd8036c9b7 ====================
+19:31:08.759435 [info ]: Started loading project
+19:31:08.759802 [info ]: Loading profiles.yml
+19:31:08.765039 [info ]: Finished loading project [  0.01s]
+19:31:08.786263 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [26ms]
+19:31:08.786376 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-30T19:31:09.971043Z | 0cf23437-81ff-4efb-9cc5-dd120e34c522 ====================
+19:31:09.971119 [info ]: Started loading project
+19:31:09.971429 [info ]: Loading profiles.yml
+19:31:09.973127 [info ]: Finished loading project [  0.00s]
+19:31:09.987046 [info ]: Cached model count updated: 1 models (estimate)
+19:31:09.987068 [info ]: Cached model count updated: 1 models (accurate)
+19:31:09.987105 [info ]: Started scheduling
+19:31:09.987161 [info ]: Finished scheduling [  0.00s]
+19:31:09.987173 [debug]: Compilation - 1 nodes selected: {"model.analisi_citta.fatturato_per_citta"}
+19:31:09.988259 [info ]: Started building task graph
+19:31:09.988304 [info ]: Finished building task graph [  0.00s]
+19:31:09.989984 [info ]: Started rendering (1 nodes)
+19:31:09.989998 [info ]: Started model main.fatturato_per_citta
+19:31:09.990007 [debug]: Started rendering model main.fatturato_per_citta
+19:31:09.990643 [debug]: Compiled SQL for node model.analisi_citta.fatturato_per_citta at target/.lsp/compiled/analisi_citta/models/fatturato_per_citta.sql
+19:31:09.990743 [debug]: Finished rendering [  0.00s] model main.fatturato_per_citta [success]
+19:31:09.990758 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+19:31:09.990786 [info ]: Started analyzing (1 nodes)
+19:31:09.990794 [debug]: Started analyzing model main.fatturato_per_citta
+19:31:09.992438 [debug]: Finished analyzing [  0.00s] model main.fatturato_per_citta [success]
+19:31:09.992449 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+19:31:09.992454 [info ]:  Succeeded model main.fatturato_per_citta (table) [1 of 1 in 0.00s]
+19:31:09.995487 [info ]: Started scheduling
+19:31:09.995526 [info ]: Finished scheduling [  0.00s]
+19:31:09.995695 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [24ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+19:31:09.995753 [info ]: Cached model count updated: 1 models (accurate)
+19:33:32.088940 [debug]: Ignoring unsupported LSP notification
+19:33:32.679894 [debug]: Ignoring unsupported LSP notification
+==================== 2026-10-30T19:49:49.257026Z | 4423cbae-f2fe-47a4-9fc3-1c8fb6fb65dd ====================
+19:49:49.261330 [info ]: Started loading project
+19:49:49.273490 [info ]: Loading profiles.yml
+19:49:49.309664 [info ]: Started parsing (2 nodes)
+19:49:49.361961 [info ]: Finished loading project [  0.10s]
+19:49:49.367994 [debug]: Finished parsing models/sources.yml [  0.00s]
+19:49:49.368152 [debug]:    Started building model nodes
+19:49:49.368160 [debug]:    Started building model nodes
+19:49:49.368302 [debug]:   Finished [  0.00s] building model nodes
+19:49:49.368303 [debug]:   Finished [  0.00s] building model nodes
+19:49:49.370954 [debug]:    Started resolving data tests
+19:49:49.370955 [debug]:    Started resolving data tests
+19:49:49.371439 [debug]:   Finished [  0.00s] resolving data tests
+19:49:49.371441 [debug]:   Finished [  0.00s] resolving data tests
+19:49:49.385138 [debug]:    Started building model nodes
+19:49:49.387416 [debug]:   Finished [  0.00s] building model nodes
+19:49:49.387912 [debug]:    Started resolving data tests
+19:49:49.387930 [debug]:   Finished [  0.00s] resolving data tests
+19:49:49.388185 [debug]: Finished parsing models/fatturato_per_citta.sql [  0.01s]
+19:49:49.388706 [debug]:    Started typechecking macros
+19:49:49.478564 [debug]:   Finished [  0.09s] typechecking macros
+19:49:49.487177 [info ]: Finished parsing [  0.18s] (2 nodes, 0 skipped, 0 errors)
+19:49:49.491324 [info ]: Cached model count updated: 1 models (estimate)
+19:49:49.491372 [info ]: Cached model count updated: 1 models (accurate)
+19:49:49.492720 [info ]: Started scheduling
+19:49:49.496303 [info ]: Finished scheduling [  0.00s]
+19:49:49.496342 [debug]: Compilation - 1 nodes selected: {"model.analisi_citta.fatturato_per_citta"}
+19:49:49.511311 [info ]: Started building task graph
+19:49:49.513511 [info ]: Finished building task graph [  0.00s]
+19:49:49.535872 [info ]: Started rendering (1 nodes)
+19:49:49.536089 [info ]: Started model main.fatturato_per_citta
+19:49:49.536289 [debug]: Started rendering model main.fatturato_per_citta
+19:49:49.541573 [debug]: Compiled SQL for node model.analisi_citta.fatturato_per_citta at target/.lsp/compiled/analisi_citta/models/fatturato_per_citta.sql
+19:49:49.542257 [debug]: Finished rendering [  0.01s] model main.fatturato_per_citta [success]
+19:49:49.542271 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+19:49:49.542773 [info ]: Started analyzing (1 nodes)
+19:49:49.542887 [debug]: Started analyzing model main.fatturato_per_citta
+19:49:49.556220 [debug]: Finished analyzing [  0.01s] model main.fatturato_per_citta [success]
+19:49:49.556229 [info ]: Finished analyzing [  0.01s] (1 nodes, 0 skipped, 0 errors)
+19:49:49.556234 [info ]:  Succeeded model main.fatturato_per_citta (table) [1 of 1 in 0.02s]
+19:49:49.564404 [info ]: Started scheduling
+19:49:49.564455 [info ]: Finished scheduling [  0.00s]
+19:49:49.565544 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [308ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+19:49:49.565760 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-30T19:49:50.745807Z | 451f8721-abd3-4204-94dd-04d524e9e433 ====================
+19:49:50.745961 [info ]: Started loading project
+19:49:50.746447 [info ]: Loading profiles.yml
+19:49:50.749178 [info ]: Finished loading project [  0.00s]
+19:49:50.763419 [info ]: Cached model count updated: 1 models (estimate)
+19:49:50.763437 [info ]: Cached model count updated: 1 models (accurate)
+19:49:50.763457 [info ]: Started scheduling
+19:49:50.763496 [info ]: Finished scheduling [  0.00s]
+19:49:50.763508 [debug]: Compilation - 1 nodes selected: {"model.analisi_citta.fatturato_per_citta"}
+19:49:50.764427 [info ]: Started building task graph
+19:49:50.764469 [info ]: Finished building task graph [  0.00s]
+19:49:50.765759 [info ]: Started rendering (1 nodes)
+19:49:50.765772 [info ]: Started model main.fatturato_per_citta
+19:49:50.765781 [debug]: Started rendering model main.fatturato_per_citta
+19:49:50.766434 [debug]: Compiled SQL for node model.analisi_citta.fatturato_per_citta at target/.lsp/compiled/analisi_citta/models/fatturato_per_citta.sql
+19:49:50.766540 [debug]: Finished rendering [  0.00s] model main.fatturato_per_citta [success]
+19:49:50.766552 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+19:49:50.766568 [info ]: Started analyzing (1 nodes)
+19:49:50.766576 [debug]: Started analyzing model main.fatturato_per_citta
+19:49:50.767483 [debug]: Finished analyzing [  0.00s] model main.fatturato_per_citta [success]
+19:49:50.767490 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+19:49:50.767494 [info ]:  Succeeded model main.fatturato_per_citta (table) [1 of 1 in 0.00s]
+19:49:50.769413 [info ]: Started scheduling
+19:49:50.769450 [info ]: Finished scheduling [  0.00s]
+19:49:50.769505 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [23ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+19:49:50.769561 [info ]: Cached model count updated: 1 models (accurate)

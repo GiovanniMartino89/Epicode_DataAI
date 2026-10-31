@@ -1,0 +1,25 @@
+{
+  "target_dir": "/Users/gian/Desktop/Data Analyst/Modulo 5, dbt e analytics/W13D1/Esercizio 4/target",
+  "fingerprints": {
+    "semantic_manifest.json": {
+      "size": 234,
+      "modified_secs": 1793387882
+    },
+    "manifest.json": {
+      "size": 503383,
+      "modified_secs": 1793388630
+    },
+    "run_results.json": {
+      "size": 343,
+      "modified_secs": 1793388630
+    },
+    "catalog.json": {
+      "size": 2135,
+      "modified_secs": 1793387398
+    }
+  },
+  "write_source": "DirectWrite",
+  "context_dir": null,
+  "context_fingerprints": {},
+  "source_identity": null
+}
