@@ -1,0 +1,21 @@
+sources: 
+  - name: flusso 
+    schema: main 
+    tables: 
+      - name: clienti 
+      - name: ordini
+        columns: 
+          - name: order_id 
+            data_tests: 
+              - not_null 
+           
+          - name: customer_id 
+            data_tests: 
+              - not_null
+              - relationships: 
+                  arguments: 
+                    to: source('flusso', 'clienti') 
+                    field: customer_id
+              
+              #integrità referenziale, ogni chiave primaria non può essere null per definizione
+              #
